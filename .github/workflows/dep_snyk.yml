@@ -5,21 +5,20 @@ on: push
 jobs:
   snyk:
     runs-on: ubuntu-latest
+    container:
+      image: snyk/snyk:golang
     steps:
     - uses: actions/checkout@master
-
     - name: Run Snyk to check for vulnerabilities
-      uses: snyk/actions/golang@master
       id: snyk
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      with:
-        command: monitor
-        args: >-
-          --file=go.mod
-          --severity-threshold=medium
-          > snyk_result.txt 2>&1
-          | tee snyk_result.txt
+      run: >-
+        snyk monitor
+        --file=go.mod
+        --severity-threshold=medium
+        > snyk_result.txt 2>&1
+        | tee snyk_result.txt
 
     - name: Post as comments
       env:
