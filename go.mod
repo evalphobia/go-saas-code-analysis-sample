@@ -93,7 +93,7 @@ require (
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	github.com/yuin/gopher-lua v0.0.0-20200521060427-6ff375d91eab // indirect
-	github.com/zegl/goriak v3.2.1+incompatible
+	github.com/zegl/goriak v3.2.4+incompatible
 	go.mongodb.org/mongo-driver v1.3.3
 	go.opencensus.io v0.22.3 // indirect
 	go.opentelemetry.io/otel v0.6.0
