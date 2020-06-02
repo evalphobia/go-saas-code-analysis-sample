@@ -13,10 +13,10 @@ import (
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-oci8"
 	_ "github.com/mattn/go-sqlite3"
-	_ "github.com/mongodb/mongo-go-driver"
 	_ "github.com/olivere/elastic"
 	_ "github.com/rethinkdb/rethinkdb-go"
 	_ "github.com/zegl/goriak"
+	_ "go.mongodb.org/mongo-driver/mongo"
 
 	_ "github.com/jinzhu/gorm"
 	_ "github.com/jmoiron/sqlx"

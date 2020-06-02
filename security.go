@@ -9,5 +9,5 @@ import (
 	_ "golang.org/x/crypto/scrypt"
 	_ "golang.org/x/net/http2"
 
-	_ "github.com/hashicorp/vault"
+	_ "github.com/hashicorp/vault/api"
 )
