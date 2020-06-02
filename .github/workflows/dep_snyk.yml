@@ -1,13 +1,43 @@
 name: Dependency Check
 
-on: push
+on:
+  pull_request:
+    types: [synchronize, opened, reopened]
+
 
 jobs:
   snyk:
     runs-on: ubuntu-latest
+    container:
+      image: snyk/snyk:golang
     steps:
     - uses: actions/checkout@master
+
     - name: Run Snyk to check for vulnerabilities
-      uses: snyk/actions/golang@master
+      id: snyk
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      run: >-
+        snyk test
+        --file=go.mod
+        --severity-threshold=medium
+        > snyk_result.txt 2>&1
+        | tee snyk_result.txt
+
+    - name: Save request body as JSON file
+      run: |
+        cat snyk_result.txt | perl -pe 's/\n/\\n/g' > snyk_result_oneline.txt
+        echo "{\"body\": \"Snyk Result: $(cat snyk_result_oneline.txt)\"}" > req.json
+        cat req.json
+
+
+    - name: Post as comments
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        URL: ${{ github.event.pull_request.comments_url }}
+      run: >-
+        curl -X POST
+        --url ${URL}
+        -H "Authorization: token ${GITHUB_TOKEN}"
+        -H "Content-Type: application/json"
+        -d @req.json
