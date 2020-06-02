@@ -13,18 +13,21 @@ jobs:
       id: snyk
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      run: |
-        SNYK_RESULT=$(snyk monitor --file=go.mod)
-        echo ::set-output name=result::${SNYK_RESULT}
+      with:
+        command: monitor
+        args: >-
+          --file=go.mod
+          --severity-threshold=medium
+          > snyk_result.txt 2>&1
+          | tee snyk_result.txt
 
     - name: Post as comments
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SNYK_RESULT: ${{ steps.snyk.outputs.result }}
         URL: ${{ github.event.pull_request.comments_url }}
       run: |
         curl -X POST \
              -H "Authorization: token ${GITHUB_TOKEN}" \
-             -d "{\"body\": \"Snyk Result: ${SNYK_RESULT}\"}" \
+             -d "{\"body\": \"Snyk Result: $(cat snyk_result.txt)\"}" \
              ${URL}
 
