@@ -26,7 +26,8 @@ jobs:
 
     - name: Save request body as JSON file
       run: |
-        echo "{\"body\": \"Snyk Result: $(cat snyk_result.txt)\"}" > req.json
+        cat snyk_result.txt | perl -pe 's/\n/\\n/g' snyk_result_oneline.txt
+        echo "{\"body\": \"Snyk Result: $(cat snyk_result_oneline.txt)\"}" > req.json
         cat req.json
 
 
