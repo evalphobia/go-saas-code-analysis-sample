@@ -83,7 +83,7 @@ require (
 	github.com/olivere/elastic v6.2.31+incompatible
 	github.com/plutov/paypal v2.0.5+incompatible
 	github.com/prometheus/client_golang v1.6.0
-	github.com/rethinkdb/rethinkdb-go v4.0.0+incompatible
+	github.com/rethinkdb/rethinkdb-go v4.1.0+incompatible
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/sirupsen/logrus v1.6.0
 	github.com/slack-go/slack v0.6.5
