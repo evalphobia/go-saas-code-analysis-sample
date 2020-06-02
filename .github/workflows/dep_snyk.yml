@@ -26,7 +26,7 @@ jobs:
 
     - name: Save request body as JSON file
       run: |
-        cat snyk_result.txt | perl -pe 's/\n/\\n/g' snyk_result_oneline.txt
+        cat snyk_result.txt | perl -pe 's/\n/\\n/g' > snyk_result_oneline.txt
         echo "{\"body\": \"Snyk Result: $(cat snyk_result_oneline.txt)\"}" > req.json
         cat req.json
 
@@ -37,7 +37,7 @@ jobs:
         URL: ${{ github.event.pull_request.comments_url }}
       run: >-
         curl -X POST
-             -H "Authorization: token ${GITHUB_TOKEN}"
-             -H "Content-Type: application/json"
-             -d @req.json
-             --url ${URL}
+        --url ${URL}
+        -H "Authorization: token ${GITHUB_TOKEN}"
+        -H "Content-Type: application/json"
+        -d @req.json
