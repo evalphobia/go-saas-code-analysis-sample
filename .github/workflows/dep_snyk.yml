@@ -24,12 +24,19 @@ jobs:
         > snyk_result.txt 2>&1
         | tee snyk_result.txt
 
+    - name: Save request body as JSON file
+      run: |
+        echo "{\"body\": \"Snyk Result: $(cat snyk_result.txt)\"}" > req.json
+        cat req.json
+
+
     - name: Post as comments
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         URL: ${{ github.event.pull_request.comments_url }}
-      run: |
-        curl -X POST \
-             -H "Authorization: token ${GITHUB_TOKEN}" \
-             -d "{\"body\": \"Snyk Result: $(cat snyk_result.txt)\"}" \
+      run: >-
+        curl -X POST
+             -H "Authorization: token ${GITHUB_TOKEN}"
+             -H "Content-Type: application/json"
+             -d @req.json
              --url ${URL}
