@@ -18,7 +18,7 @@ jobs:
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       run: >-
-        snyk monitor
+        snyk test
         --file=go.mod
         --severity-threshold=medium
         > snyk_result.txt 2>&1
