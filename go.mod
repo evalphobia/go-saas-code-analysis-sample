@@ -94,7 +94,7 @@ require (
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	github.com/yuin/gopher-lua v0.0.0-20200521060427-6ff375d91eab // indirect
 	github.com/zegl/goriak v3.2.1+incompatible
-	go.mongodb.org/mongo-driver v1.3.3
+	go.mongodb.org/mongo-driver v1.3.4
 	go.opencensus.io v0.22.3 // indirect
 	go.opentelemetry.io/otel v0.6.0
 	go.uber.org/zap v1.15.0
