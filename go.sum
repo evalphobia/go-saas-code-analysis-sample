@@ -265,6 +265,8 @@ github.com/evanphx/json-patch v4.2.0+incompatible/go.mod h1:50XU6AFN0ol/bzJsmQLi
 github.com/exoscale/egoscale v0.18.1/go.mod h1:Z7OOdzzTOz1Q1PjQXumlz9Wn/CddH0zSYdCF3rnBKXE=
 github.com/fastly/go-fastly v1.14.0 h1:d7dCLAPp2A/wneeej42bc7JomGjhYlQSBgJ3Nt0YY9Y=
 github.com/fastly/go-fastly v1.14.0/go.mod h1:jILbTQnU/K/7XHQNzQWd1O7hbXIcp6dKrxfRWqU6xfk=
+github.com/fastly/go-fastly v1.15.0 h1:t7f0ZnQy0rKYN8FCql4wHkfZNHajxDs1hT/phazOpp8=
+github.com/fastly/go-fastly v1.15.0/go.mod h1:jILbTQnU/K/7XHQNzQWd1O7hbXIcp6dKrxfRWqU6xfk=
 github.com/fatih/color v1.3.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fatih/color v1.9.0 h1:8xPHl4/q1VyqGIPif1F+1V3Y3lSmrq01EabUW3CoW5s=
