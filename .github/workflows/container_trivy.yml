@@ -1,0 +1,20 @@
+name: Vulnerability Scan
+
+on:
+  pull_request:
+    types: [synchronize, opened, reopened]
+
+jobs:
+  scan:
+    name: Daily Vulnerability Scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Make docker image
+        run: docker build ./dockerfiles/ubuntu -t test_ubuntu
+
+      - uses: homoluctus/gitrivy@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          image: test_ubuntu
