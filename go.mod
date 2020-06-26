@@ -41,7 +41,7 @@ require (
 	github.com/envoyproxy/go-control-plane v0.9.4
 	github.com/etcd-io/etcd v3.3.22+incompatible
 	github.com/ethereum/go-ethereum v1.9.14
-	github.com/fastly/go-fastly v1.14.0
+	github.com/fastly/go-fastly v1.16.0
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32 // indirect
 	github.com/gin-gonic/gin v1.6.3
