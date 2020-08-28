@@ -20,7 +20,7 @@ require (
 	github.com/andygrunwald/go-jira v1.12.0
 	github.com/ant0ine/go-json-rest v3.3.2+incompatible
 	github.com/astaxie/beego v1.12.1
-	github.com/aws/aws-sdk-go v1.31.8
+	github.com/aws/aws-sdk-go v1.34.13
 	github.com/basho/backoff v0.0.0-20150307023525-2ff7c4694083 // indirect
 	github.com/basho/riak-go-client v1.7.0 // indirect
 	github.com/boltdb/bolt v1.3.1 // indirect
