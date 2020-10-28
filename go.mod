@@ -41,7 +41,7 @@ require (
 	github.com/envoyproxy/go-control-plane v0.9.4
 	github.com/etcd-io/etcd v3.3.22+incompatible
 	github.com/ethereum/go-ethereum v1.9.14
-	github.com/fastly/go-fastly v1.14.0
+	github.com/fastly/go-fastly v1.18.0
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32 // indirect
 	github.com/gin-gonic/gin v1.6.3
@@ -106,7 +106,6 @@ require (
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
 	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
-	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
 	google.golang.org/api v0.20.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/genproto v0.0.0-20200306153348-d950eab6f860 // indirect
