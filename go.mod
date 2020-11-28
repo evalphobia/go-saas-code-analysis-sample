@@ -39,7 +39,7 @@ require (
 	github.com/elastic/go-elasticsearch/v6 v6.8.5
 	github.com/elastic/go-elasticsearch/v7 v7.5.0
 	github.com/envoyproxy/go-control-plane v0.9.4
-	github.com/etcd-io/etcd v3.3.22+incompatible
+	github.com/etcd-io/etcd v3.4.14+incompatible
 	github.com/ethereum/go-ethereum v1.9.14
 	github.com/fastly/go-fastly v1.14.0
 	github.com/fatih/color v1.9.0 // indirect
