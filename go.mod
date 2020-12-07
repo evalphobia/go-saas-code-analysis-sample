@@ -67,7 +67,7 @@ require (
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
 	github.com/hashicorp/vault/api v1.0.5-0.20200317185738-82f498082f02
 	github.com/hashicorp/vault/sdk v0.1.14-0.20200429182704-29fce8f27ce4 // indirect
-	github.com/huandu/facebook v2.3.1+incompatible
+	github.com/huandu/facebook v2.5.3+incompatible
 	github.com/influxdata/influxdb-client-go v1.2.0
 	github.com/jinzhu/gorm v1.9.12
 	github.com/jmoiron/sqlx v1.2.0
