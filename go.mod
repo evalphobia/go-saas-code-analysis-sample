@@ -32,7 +32,7 @@ require (
 	github.com/coreos/go-semver v0.2.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20181012123002-c6f51f82210d // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
-	github.com/couchbase/gocb v1.6.7
+	github.com/couchbase/gocb/v2/v2 v2.2.0
 	github.com/denisenkom/go-mssqldb v0.0.0-20200428022330-06a60b6afbbc
 	github.com/dghubble/go-twitter v0.0.0-20190719072343-39e5462e111f
 	github.com/digitalocean/godo v1.37.0
