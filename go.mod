@@ -38,7 +38,7 @@ require (
 	github.com/digitalocean/godo v1.37.0
 	github.com/elastic/go-elasticsearch/v6 v6.8.5
 	github.com/elastic/go-elasticsearch/v7 v7.5.0
-	github.com/envoyproxy/go-control-plane v0.9.4
+	github.com/envoyproxy/go-control-plane v0.9.8
 	github.com/etcd-io/etcd v3.3.22+incompatible
 	github.com/ethereum/go-ethereum v1.9.14
 	github.com/fastly/go-fastly v1.14.0
