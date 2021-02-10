@@ -34,7 +34,7 @@ require (
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/couchbase/gocb v1.6.7
 	github.com/denisenkom/go-mssqldb v0.0.0-20200428022330-06a60b6afbbc
-	github.com/dghubble/go-twitter v0.0.0-20190719072343-39e5462e111f
+	github.com/dghubble/go-twitter v0.0.0-20201011215211-4b180d0cc78d
 	github.com/digitalocean/godo v1.37.0
 	github.com/elastic/go-elasticsearch/v6 v6.8.5
 	github.com/elastic/go-elasticsearch/v7 v7.5.0
