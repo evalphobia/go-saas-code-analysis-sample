@@ -19,7 +19,7 @@ require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.228
 	github.com/andygrunwald/go-jira v1.12.0
 	github.com/ant0ine/go-json-rest v3.3.2+incompatible
-	github.com/astaxie/beego v1.12.1
+	github.com/astaxie/beego v1.12.3
 	github.com/aws/aws-sdk-go v1.31.8
 	github.com/basho/backoff v0.0.0-20150307023525-2ff7c4694083 // indirect
 	github.com/basho/riak-go-client v1.7.0 // indirect
@@ -82,9 +82,8 @@ require (
 	github.com/mitchellh/mapstructure v1.3.1
 	github.com/olivere/elastic v6.2.31+incompatible
 	github.com/plutov/paypal v2.0.5+incompatible
-	github.com/prometheus/client_golang v1.6.0
+	github.com/prometheus/client_golang v1.7.0
 	github.com/rethinkdb/rethinkdb-go v4.0.0+incompatible
-	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/sirupsen/logrus v1.6.0
 	github.com/slack-go/slack v0.6.5
 	github.com/soheilhy/cmux v0.1.4 // indirect
@@ -105,7 +104,6 @@ require (
 	golang.org/x/net v0.0.0-20200528225125-3c3fba18258b
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
-	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
 	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
 	google.golang.org/api v0.20.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
