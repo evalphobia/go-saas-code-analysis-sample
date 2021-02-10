@@ -51,7 +51,7 @@ require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-yaml/yaml v2.1.0+incompatible
 	github.com/goadesign/goa v2.1.3+incompatible
-	github.com/gocql/gocql v0.0.0-20200526081602-cd04bd7f22a7
+	github.com/gocql/gocql v0.0.0-20210129204804-4364a4b9cfdd
 	github.com/gocraft/web v0.0.0-20190207150652-9707327fb69b
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.4.2
