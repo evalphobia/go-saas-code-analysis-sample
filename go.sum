@@ -93,6 +93,8 @@ github.com/ajg/form v0.0.0-20160802194845-cc2954064ec9/go.mod h1:uL1WgH+h2mgNtvB
 github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.0/go.mod h1:zpDJeKyp9ScW4NNrbdr+Eyxvry3ilGPewKoXw3XGN1k=
 github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.16 h1:vZX3kf/vCWSknAUKKPHLsnUgZly2gBPz2Lj95sG1KSY=
 github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.16/go.mod h1:L+HB2uBoDgi3+r1pJEJcbGwyyHhd2QXaGsKLbDwtm8Q=
+github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.18 h1:KyEv96ncdgOIJRTKMcWlIqM0umf8X3LQP6oOyg0hNsM=
+github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.18/go.mod h1:L+HB2uBoDgi3+r1pJEJcbGwyyHhd2QXaGsKLbDwtm8Q=
 github.com/alangpierce/go-forceexport v0.0.0-20160317203124-8f1d6941cd75/go.mod h1:uAXEEpARkRhCZfEvy/y0Jcc888f9tHCc1W7/UeEtreE=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=

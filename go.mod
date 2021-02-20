@@ -15,7 +15,7 @@ require (
 	github.com/Shopify/sarama v1.26.4
 	github.com/adlio/trello v1.7.0
 	github.com/aerospike/aerospike-client-go v2.12.0+incompatible
-	github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.16
+	github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.18
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.228
 	github.com/andygrunwald/go-jira v1.12.0
 	github.com/ant0ine/go-json-rest v3.3.2+incompatible
