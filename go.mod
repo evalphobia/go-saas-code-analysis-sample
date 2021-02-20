@@ -7,7 +7,7 @@ require (
 	cloud.google.com/go/bigquery v1.3.0 // indirect
 	cloud.google.com/go/pubsub v1.1.0 // indirect
 	cloud.google.com/go/storage v1.4.0 // indirect
-	github.com/Azure/azure-sdk-for-go v43.0.0+incompatible
+	github.com/Azure/azure-sdk-for-go v43.3.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.10.0
 	github.com/BurntSushi/toml v0.3.1
 	github.com/Medium/medium-sdk-go v0.0.0-20171230201202-4daca056cf6a
