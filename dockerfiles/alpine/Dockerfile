@@ -1,4 +1,4 @@
-FROM python:3.8.3-alpine
+FROM python:3.9.5-alpine
 
 RUN apk add --update curl haproxy sqlite-dev gcc g++ \
     && rm -rf /var/cache/apk/*
