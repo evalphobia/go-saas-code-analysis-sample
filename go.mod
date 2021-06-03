@@ -37,7 +37,7 @@ require (
 	github.com/dghubble/go-twitter v0.0.0-20190719072343-39e5462e111f
 	github.com/digitalocean/godo v1.37.0
 	github.com/elastic/go-elasticsearch/v6 v6.8.5
-	github.com/elastic/go-elasticsearch/v7 v7.5.0
+	github.com/elastic/go-elasticsearch/v7 v7.13.1
 	github.com/envoyproxy/go-control-plane v0.9.4
 	github.com/etcd-io/etcd v3.3.22+incompatible
 	github.com/ethereum/go-ethereum v1.9.14
