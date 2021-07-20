@@ -20,7 +20,7 @@ require (
 	github.com/andygrunwald/go-jira v1.12.0
 	github.com/ant0ine/go-json-rest v3.3.2+incompatible
 	github.com/astaxie/beego v1.12.1
-	github.com/aws/aws-sdk-go v1.31.8
+	github.com/aws/aws-sdk-go v1.40.4
 	github.com/basho/backoff v0.0.0-20150307023525-2ff7c4694083 // indirect
 	github.com/basho/riak-go-client v1.7.0 // indirect
 	github.com/boltdb/bolt v1.3.1 // indirect
@@ -102,10 +102,9 @@ require (
 	golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6 // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
 	golang.org/x/mod v0.3.0 // indirect
-	golang.org/x/net v0.0.0-20200528225125-3c3fba18258b
+	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
-	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
 	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
 	google.golang.org/api v0.20.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
