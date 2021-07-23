@@ -80,7 +80,7 @@ require (
 	github.com/mattn/go-oci8 v0.0.8
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
 	github.com/mitchellh/mapstructure v1.3.1
-	github.com/olivere/elastic v6.2.31+incompatible
+	github.com/olivere/elastic v6.2.36+incompatible
 	github.com/plutov/paypal v2.0.5+incompatible
 	github.com/prometheus/client_golang v1.6.0
 	github.com/rethinkdb/rethinkdb-go v4.0.0+incompatible
