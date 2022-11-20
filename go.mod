@@ -17,7 +17,7 @@ require (
 	github.com/aerospike/aerospike-client-go v2.12.0+incompatible
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.16
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.228
-	github.com/andygrunwald/go-jira v1.12.0
+	github.com/andygrunwald/go-jira v1.16.0
 	github.com/ant0ine/go-json-rest v3.3.2+incompatible
 	github.com/astaxie/beego v1.12.1
 	github.com/aws/aws-sdk-go v1.31.8
@@ -55,7 +55,6 @@ require (
 	github.com/gocraft/web v0.0.0-20190207150652-9707327fb69b
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.4.2
-	github.com/google/go-cmp v0.4.1 // indirect
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/uuid v1.1.1
 	github.com/googleapis/gnostic v0.2.0 // indirect
@@ -105,7 +104,6 @@ require (
 	golang.org/x/net v0.0.0-20200528225125-3c3fba18258b
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
-	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
 	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
 	google.golang.org/api v0.20.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
