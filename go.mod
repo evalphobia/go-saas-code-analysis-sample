@@ -34,7 +34,7 @@ require (
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/couchbase/gocb v1.6.7
 	github.com/denisenkom/go-mssqldb v0.0.0-20200428022330-06a60b6afbbc
-	github.com/dghubble/go-twitter v0.0.0-20190719072343-39e5462e111f
+	github.com/dghubble/go-twitter v0.0.0-20221104224141-912508c3888b
 	github.com/digitalocean/godo v1.37.0
 	github.com/elastic/go-elasticsearch/v6 v6.8.5
 	github.com/elastic/go-elasticsearch/v7 v7.5.0
@@ -55,7 +55,6 @@ require (
 	github.com/gocraft/web v0.0.0-20190207150652-9707327fb69b
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.4.2
-	github.com/google/go-cmp v0.4.1 // indirect
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/uuid v1.1.1
 	github.com/googleapis/gnostic v0.2.0 // indirect
@@ -88,7 +87,6 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 	github.com/slack-go/slack v0.6.5
 	github.com/soheilhy/cmux v0.1.4 // indirect
-	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stripe/stripe-go v70.15.0+incompatible
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
