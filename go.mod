@@ -8,7 +8,7 @@ require (
 	cloud.google.com/go/pubsub v1.1.0 // indirect
 	cloud.google.com/go/storage v1.4.0 // indirect
 	github.com/Azure/azure-sdk-for-go v43.0.0+incompatible
-	github.com/Azure/go-autorest/autorest v0.10.0
+	github.com/Azure/go-autorest/autorest v0.11.29
 	github.com/BurntSushi/toml v0.3.1
 	github.com/Medium/medium-sdk-go v0.0.0-20171230201202-4daca056cf6a
 	github.com/NYTimes/gizmo v1.3.5
@@ -98,15 +98,11 @@ require (
 	go.opencensus.io v0.22.3 // indirect
 	go.opentelemetry.io/otel v0.6.0
 	go.uber.org/zap v1.15.0
-	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
+	golang.org/x/crypto v0.6.0
 	golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6 // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
-	golang.org/x/mod v0.3.0 // indirect
-	golang.org/x/net v0.0.0-20200528225125-3c3fba18258b
+	golang.org/x/net v0.6.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
-	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
-	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
 	google.golang.org/api v0.20.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/genproto v0.0.0-20200306153348-d950eab6f860 // indirect
