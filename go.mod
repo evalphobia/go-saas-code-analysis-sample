@@ -13,7 +13,7 @@ require (
 	github.com/Medium/medium-sdk-go v0.0.0-20171230201202-4daca056cf6a
 	github.com/NYTimes/gizmo v1.3.5
 	github.com/Shopify/sarama v1.26.4
-	github.com/adlio/trello v1.7.0
+	github.com/adlio/trello v1.12.0
 	github.com/aerospike/aerospike-client-go v2.12.0+incompatible
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.16
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.228
