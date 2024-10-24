@@ -16,7 +16,7 @@ require (
 	github.com/adlio/trello v1.7.0
 	github.com/aerospike/aerospike-client-go v2.12.0+incompatible
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v0.9.16
-	github.com/aliyun/alibaba-cloud-sdk-go v1.61.228
+	github.com/aliyun/alibaba-cloud-sdk-go v1.63.38
 	github.com/andygrunwald/go-jira v1.12.0
 	github.com/ant0ine/go-json-rest v3.3.2+incompatible
 	github.com/astaxie/beego v1.12.1
@@ -55,7 +55,6 @@ require (
 	github.com/gocraft/web v0.0.0-20190207150652-9707327fb69b
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.4.2
-	github.com/google/go-cmp v0.4.1 // indirect
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/uuid v1.1.1
 	github.com/googleapis/gnostic v0.2.0 // indirect
