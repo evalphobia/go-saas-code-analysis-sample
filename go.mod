@@ -120,7 +120,7 @@ require (
 	gopkg.in/square/go-jose.v2 v2.4.1 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
 	k8s.io/api v0.18.3
-	k8s.io/apimachinery v0.18.3
+	k8s.io/apimachinery v0.18.8
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/utils v0.0.0-20200601170155-a0dff01d8ea5 // indirect
 )
