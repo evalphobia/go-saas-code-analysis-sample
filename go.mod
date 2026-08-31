@@ -85,7 +85,7 @@ require (
 	github.com/prometheus/client_golang v1.6.0
 	github.com/rethinkdb/rethinkdb-go v4.0.0+incompatible
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
-	github.com/sirupsen/logrus v1.6.0
+	github.com/sirupsen/logrus v1.8.3
 	github.com/slack-go/slack v0.6.5
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/stretchr/objx v0.2.0 // indirect
@@ -105,7 +105,6 @@ require (
 	golang.org/x/net v0.0.0-20200528225125-3c3fba18258b
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
-	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
 	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
 	google.golang.org/api v0.20.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
