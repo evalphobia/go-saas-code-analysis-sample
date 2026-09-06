@@ -47,7 +47,7 @@ require (
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-chi/chi v4.1.1+incompatible
 	github.com/go-playground/validator v9.31.0+incompatible
-	github.com/go-redis/redis v6.15.8+incompatible
+	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-yaml/yaml v2.1.0+incompatible
 	github.com/goadesign/goa v2.1.3+incompatible
